@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>webRTC test</title>
+</head>
+
+<body style="background-color: darkslategrey;">
+  <h1>Hello, webRTC!</h1>
+  <hr />
+
+  <h3>local offer</h3>
+  <p id="offerLocal"></p>
+  <br />
+  <button id="startButton" data-cy="create">create local offer</button>
+  <hr />
+
+  <h3>remote offer</h3>
+  <textarea id="offerRemote"></textarea>
+  <br />
+  <button id="addOfferRemote">add remote offer</button>
+  <hr />
+
+  <h3>sdps</h3>
+  <p id="sdps"></p>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
